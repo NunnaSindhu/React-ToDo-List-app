@@ -21,7 +21,7 @@ function App() {
       task: value,
       done: false,
     };
-    setTasks(...tasks, newTask);
+    setTasks([...tasks, newTask]);
   };
   const onCheckHandler = (id, checked) => {
     setTasks(
