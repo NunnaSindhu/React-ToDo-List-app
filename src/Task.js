@@ -2,7 +2,7 @@ import React from "react";
 
 function Task({ task, done,id, onCheckHandler,deleteHandler }) {
   return (
-    <div className={"todo-item" + (done ? "complete" : "")}>
+     <div className={"todo-item " + (done ? 'complete' : '')}>
       <div className="checker">
         <span className="">
           <input
